@@ -72,7 +72,8 @@ public class Main {
         var extraEmployees = 94;
         var newEmployeeCount = employeeCount + extraEmployees;
         var newTotalHours = newEmployeeCount * hoursPerEmployee;
-        System.out.println("Если в компании работает " + newEmployeeCount + " человек, то всего "
-                + newTotalHours + " часов работы может быть поделено между сотрудниками");
+        System.out.println("Если в компании работает " + newEmployeeCount +
+                " человек, то всего " + newTotalHours +
+                " часов работы может быть поделено между сотрудниками");
     }
 }
